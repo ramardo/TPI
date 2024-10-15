@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c21818;
+}
+
+header img {
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.user-info span {
+    margin-left: 10px;
+}
+
+.curso-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-image: url('https://source.unsplash.com/1600x900/?coding');
+    background-size: cover;
+    background-position: center;
+}
+
+.curso-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 200px;
+    background-color: #c21818;
+    color: #000;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 200px;
+}

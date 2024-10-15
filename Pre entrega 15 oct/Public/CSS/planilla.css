@@ -1,0 +1,41 @@
+table {
+      width: 70%;
+      border-collapse: collapse;
+      margin: 90px auto; /* Centra la tabla y agrega margen */
+      margin-bottom: 10px;
+    }
+    body{
+        background-image: url(../../Public/imagenes/Fondo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    th, td {
+      border: 1px solid black; /* Borde de las celdas */
+      padding: 5px; /* Espaciado interno de las celdas */
+      text-align: center; /* Alineación del texto al centro */
+      font-size: 12px; /* Tamaño de fuente */
+      
+    }
+    th {
+      background-color: #ffffff; /* Color de fondo para las cabeceras */
+    }
+    td {
+      background-color: #ffffff; /* Color de fondo para las celdas normales */
+    }
+    td[colspan="16"] {
+      height: 10px; /* Altura de las filas de relleno */
+    }
+    td[colspan="2"] {
+      width: 8%; /* Ancho de las celdas que ocupan dos columnas */
+    }
+    td[colspan="3"] {
+      width: 12%; /* Ancho de las celdas que ocupan tres columnas */
+    }
+    td[colspan="4"] {
+      width: 16%; /* Ancho de las celdas que ocupan cuatro columnas */
+    }
+    td[rowspan="3"] 
+      height: 40px; /* Altura de las celdas que ocupan tres filas */
